@@ -8,6 +8,11 @@ body {
   color: #444444;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .title {
   text-align: center;
   font-size: 32px;
@@ -50,4 +55,15 @@ body {
 
 .link:hover{
   text-decoration: underline;
+}
+.github-link {
+  width: 40px;
+  display: block;
+  margin: 0 auto;
+}
+.footer {
+  margin-top: 48px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
