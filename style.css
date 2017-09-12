@@ -23,10 +23,11 @@ img {
 }
 
 .title {
-  animation: 3s forwards fadeIn;
+  animation: 1s 0.2s forwards appearFromTop;
   text-align: center;
   font-size: 32px;
   margin-bottom: 56px;
+  opacity: 0;
 }
 
 .header {
@@ -49,7 +50,7 @@ img {
 }
 
 .photo {
-  animation: 1.6s 0.4s forwards appear;
+  animation: 1s 0s forwards appear;
   height: 120px;
   width: 120px;
   border-radius: 50%;
