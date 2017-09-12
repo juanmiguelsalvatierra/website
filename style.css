@@ -13,7 +13,17 @@ img {
   height: auto;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .title {
+  animation: 3s forwards fadeIn;
   text-align: center;
   font-size: 32px;
   margin-bottom: 56px;
