@@ -101,17 +101,19 @@ img {
 
 .link {
   color: #5872FF;
- text-decoration: none;
- }
+  text-decoration: none;
+}
 
 .link:hover {
   text-decoration: underline;
 }
 
 .github-link {
+  animation: 1s 1.2s forwards appearFromTop;
   width: 40px;
   display: block;
   margin: 0 auto;
+  opacity: 0;
 }
 
 .footer {
@@ -119,4 +121,9 @@ img {
   text-align: center;
   font-size: 20px;
   margin-bottom: 20px;
+}
+
+.footer-text {
+  animation: 1s 1.2s forwards appearFromTop;
+  opacity: 0;
 }
