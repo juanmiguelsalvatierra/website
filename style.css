@@ -26,7 +26,20 @@ img {
   margin-bottom: 80px;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
 .photo {
+  animation: 1.6s 0.4s forwards appear;
   height: 120px;
   width: 120px;
   border-radius: 50%;
@@ -36,6 +49,7 @@ img {
   left: calc(50% - 60px);
   top: 90px;
   border: 5px solid white;
+  opacity: 0;
 }
 
 .text {
