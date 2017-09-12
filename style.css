@@ -52,11 +52,35 @@ img {
   opacity: 0;
 }
 
+@keyframes appearFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-24px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 .text {
   text-align: center;
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 1.5em;
+  opacity: 0;
+}
+
+.text-1 {
+  animation: 1s 0.4s forwards appearFromTop;
+}
+
+.text-2 {
+  animation: 1s 0.6s forwards appearFromTop;
+}
+
+.text-3 {
+  animation: 1s 0.8s forwards appearFromTop;
 }
 
 .main {
