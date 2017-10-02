@@ -100,7 +100,7 @@ img {
   margin: 0 auto;
 }
 
-.link {
+.link:hover{
   color: #5872FF;
   text-decoration: none;
 }
